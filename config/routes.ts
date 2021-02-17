@@ -1,4 +1,11 @@
-﻿export default [
+﻿/*
+ * @Description:
+ * @Author: zhaocheng.zhai
+ * @Date: 2021-01-27 13:21:34
+ * @LastEditTime: 2021-02-16 15:57:48
+ * @LastEditors: zhaocheng.zhai
+ */
+export default [
   {
     path: '/',
     component: '../layouts/BlankLayout',
@@ -53,7 +60,7 @@
                 name: 'list.table-list',
                 icon: 'table',
                 path: '/list',
-                component: './TableList',
+                component: './TableList/test',
               },
               {
                 component: './404',
