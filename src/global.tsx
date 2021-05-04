@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: zhaocheng.zhai
+ * @Date: 2021-01-27 13:21:34
+ * @LastEditTime: 2021-05-04 22:53:54
+ * @LastEditors: zhaocheng.zhai
+ */
 import { Button, message, notification } from 'antd';
 
 import React from 'react';
@@ -13,6 +20,8 @@ if (pwa) {
   window.addEventListener('sw.offline', () => {
     message.warning(useIntl().formatMessage({ id: 'app.pwa.offline' }));
   });
+
+  console.log('123123');
 
   // Pop up a prompt on the page asking the user if they want to use the latest version
   window.addEventListener('sw.updated', (event: Event) => {
